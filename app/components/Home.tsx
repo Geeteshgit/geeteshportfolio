@@ -20,7 +20,7 @@ const variants = {
     opacity: 1,
     transition : {
       duration : 0.5,
-      staggerChildren: 0.2
+      staggerChildren: 0.15
     }
   }
 }
@@ -111,7 +111,7 @@ const Home = () => {
           animate='visible'
           >
           <img 
-            src="./user.jpg" 
+            src="user.jpg" 
             alt="user-img" 
             className='w-full h-full object-cover' 
           />

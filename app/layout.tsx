@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import SmoothScroll from "./components/SmoothScrolling";
+import CustomCursor from "./components/CustomCursor";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,7 +16,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Geetesh Dalal",
-  description: "Geetesh Dalal portfolio website",
+  description: "I'm a full stack developer passionate about solving real-world problems with clean code and modern web technologies. Explore my portfolio to see the work that drives my career.",
+  keywords: "Full Stack Developer, Web Developer, Next Developer, React Developer, Node.js, JavaScript, Portfolio, MongoDB, MERN Stack, Software Engineer",
+  icons: {
+    icon: "/favicon.jpg"
+  }
 };
 
 export default function RootLayout({
@@ -26,8 +32,10 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      > 
+        <CustomCursor />
         {children}
+        <SmoothScroll />
       </body>
     </html>
   );

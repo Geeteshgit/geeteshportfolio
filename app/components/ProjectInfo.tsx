@@ -2,11 +2,45 @@ import { Projects } from "@/data/myData";
 import React from "react";
 import { MdNavigateNext } from "react-icons/md";
 import { VscGithubAlt } from "react-icons/vsc";
-import { motion } from "motion/react";
+import { motion, MotionValue } from "motion/react";
 
-const ProjectInfo: React.FC<Projects> = (props) => {
+interface ProjectInfoProps extends Projects {
+  opacityContent?: MotionValue<number>
+}
+
+const variants = {
+  hidden: {
+    opacity: 0,
+    y: 25
+  },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      staggerChildren: 0.15
+    }
+  }
+}
+
+const childVariants = {
+  hidden: {
+    opacity: 0,
+    y: 25
+  },
+  visible: {
+    opacity: 1,
+    y: 0
+  }
+}
+
+const ProjectInfo: React.FC<ProjectInfoProps> = (props) => {
   return (
-    <div className="lg:w-2/5 w-full flex flex-col gap-6">
+    <motion.div 
+      className="lg:w-2/5 w-full flex flex-col gap-6"
+      style={{
+        opacity: props.opacityContent
+      }}
+      >
       <div className="flex items-center gap-2">
         <h2 className="relative lg:text-3xl text-2xl bg-gradient-to-r bg-clip-text text-transparent from-purple-400 to-purple-200 font-semibold lg:before:content-[''] lg:before:h-1 lg:before:w-[25px] lg:before:rounded-full lg:before:bg-gradient-to-r before:from-purple-600 before:to-purple-200 lg:before:absolute lg:before:top-1/2 lg:before:-left-[35px]">
           {props.name}
@@ -30,13 +64,20 @@ const ProjectInfo: React.FC<Projects> = (props) => {
           );
         })}
       </ul>
-      <div className="flex flex-wrap gap-3">
+      <motion.div 
+        className="flex flex-wrap gap-3"
+        variants={variants}
+        initial='hidden'
+        whileInView='visible'  
+      >
         {props.technologies?.map((tech, idx) => {
           return (
             <motion.div 
                 key={idx}
-                className="flex items-center gap-1 text-sm bg-neutral-900 px-3 py-1 border border-neutral-700 rounded-lg shadow-lg shadow-purple-500/10">
-              <motion.img
+                className="flex items-center gap-1 text-sm bg-neutral-900 px-3 py-1 border border-neutral-700 rounded-lg shadow-lg shadow-purple-500/10"
+                variants={childVariants}
+              >
+              <img
                 src={`/icons/${tech}.svg`}
                 alt="technology-icon"
                 className="h-4"
@@ -45,8 +86,8 @@ const ProjectInfo: React.FC<Projects> = (props) => {
             </motion.div>
           );
         })}
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 };
 
