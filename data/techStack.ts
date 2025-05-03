@@ -7,87 +7,87 @@ export interface Technology {
 export const technologies: Technology[] = [
   { 
     id: 1, 
-    icon: "html5.svg", 
+    icon: "HTML5.svg", 
     technology: "HTML5" 
   },
   { 
     id: 2, 
-    icon: "css3.svg", 
+    icon: "CSS3.svg", 
     technology: "CSS3" 
   },
   { 
     id: 3, 
-    icon: "javascript.svg", 
+    icon: "JavaScript.svg", 
     technology: "JavaScript" 
   },
   { 
     id: 4, 
-    icon: "typescript.svg", 
+    icon: "TypeScript.svg", 
     technology: "TypeScript" 
   },
   {
     id: 5, 
-    icon: "react.svg", 
+    icon: "React.js.svg", 
     technology: "React.js" 
   },
   { 
     id: 6, 
-    icon: "nextjs.svg", 
+    icon: "Next.js.svg", 
     technology: "Next.js" 
   },
   { 
     id: 7, 
-    icon: "tailwindcss.svg", 
+    icon: "Tailwind CSS.svg", 
     technology: "Tailwind CSS" 
   },
   { 
     id: 8, 
-    icon: "nodejs.svg", 
+    icon: "Node.js.svg", 
     technology: "Node.js" 
   },
   { 
     id: 9, 
-    icon: "expressjs.svg", 
+    icon: "Express.js.svg", 
     technology: "Express.js" 
   },
   { 
     id: 10,
-    icon: "mongodb.svg", 
+    icon: "MongoDB.svg", 
     technology: "MongoDB" 
   },
   { 
     id: 11, 
-    icon: "framermotion.svg", 
+    icon: "Framer Motion.svg", 
     technology: "Framer Motion" 
   },
   { 
     id: 12, 
-    icon: "mysql.svg", 
+    icon: "MySQL.svg", 
     technology: "MySQL" 
   },
   { 
     id: 13, 
-    icon: "git.svg", 
+    icon: "Git.svg", 
     technology: "Git" 
   },
   { 
     id: 14, 
-    icon: "github.svg", 
+    icon: "GitHub.svg", 
     technology: "GitHub" 
   },
   { 
     id: 15, 
-    icon: "postman.svg", 
+    icon: "Postman.svg", 
     technology: "Postman" 
   },
   { 
     id: 16, 
-    icon: "figma.svg", 
+    icon: "Figma.svg", 
     technology: "Figma" 
   },
   { 
     id: 17, 
-    icon: "java.svg", 
+    icon: "Java.svg", 
     technology: "Java" 
   }
 ];

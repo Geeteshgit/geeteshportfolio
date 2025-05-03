@@ -7,15 +7,15 @@ interface Data {
     CGPA: number
 }
 
-interface Projects {
-    image: string,
-    caption: string,
-    name: string,
-    link: string,
-    github: string,
-    description: string,
-    features: string[],
-    technologies: string[]
+export interface Projects {
+    image?: string,
+    caption?: string,
+    name?: string,
+    link?: string,
+    github?: string,
+    description?: string,
+    features?: string[],
+    technologies?: string[],
 }
 
 export const myData: Data = {
@@ -29,25 +29,69 @@ export const myData: Data = {
 
 export const projects: Projects[] = [
     {
-        image: './projects/campushive.jpg',
-        caption: 'A student-driven platform designed to solve daily campus life challenges by enabling seamless communication, collaboration, and connections among students.',
+        image: 'campushive.png',
+        caption: 'A student-driven platform solving daily campus challenges through seamless communication and collaboration.',
         name: 'CampusHive',
         link: 'https://campushive-snowy.vercel.app/',
         github: 'https://github.com/Geeteshgit/CampusHive.git',
         description: 'CampusHive is a platform aimed at solving common campus challenges, enhancing communication, and connecting students for various needs like collaboration, carpooling, and social interactions.',
         features: [
-            'Used Socket.IO to enable real-time public chat and private messaging for seamless peer-to-peer campus communication'
+            'Real-time public chat and private DMs using Socket.IO.'
             , 
-            'Implemented secure authentication using JWT and integrated Google OAuth for flexible login/signup options.'
+            'Secure login with JWT and Google OAuth.'
             ,
-            'Implemented a carpool feature that allows students to share rides, helping reduce travel costs by up to 70%.'
+            'Carpool system to reduce travel costs.'
             ,
-            'Lost & Found feature improving item recovery with searchable listings.'
+            'Lost & Found with searchable listings.'
             ,
-            'Project collaboration posts to connect students for academic and technical teamwork.'
+            'Project posts to connect for collaborations.'
             ,
-            'Student-to-student car rental listings for easy short-term vehicle access.'
+            'Peer-to-peer car rental listings.'
         ],
-        technologies: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Socket.IO']
+        technologies: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Socket.IO'],
+    },
+    {
+        image: 'codev.png',
+        caption: 'A student-driven platform solving daily campus challenges through seamless communication and collaboration.',
+        name: 'Codev',
+        link: 'https://campushive-snowy.vercel.app/',
+        github: 'https://github.com/Geeteshgit/Codev.git',
+        description: 'CampusHive is a platform aimed at solving common campus challenges, enhancing communication, and connecting students for various needs like collaboration, carpooling, and social interactions.',
+        features: [
+            'Real-time public chat and private DMs using Socket.IO.'
+            , 
+            'Secure login with JWT and Google OAuth.'
+            ,
+            'Carpool system to reduce travel costs.'
+            ,
+            'Lost & Found with searchable listings.'
+            ,
+            'Project posts to connect for collaborations.'
+            ,
+            'Peer-to-peer car rental listings.'
+        ],
+        technologies: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Socket.IO'],
+    },
+    {
+        image: 'portfolio.png',
+        caption: 'A sleek full stack developer portfolio to showcase skills, projects, and coding profiles.',
+        name: 'Personal Portfolio',
+        link: 'https://campushive-snowy.vercel.app/',
+        github: 'https://github.com/Geeteshgit/geeteshportfolio.git',
+        description: 'A fully responsive web developer portfolio designed to highlight personal projects, technical stack, and online presence across coding platforms. It features project cards with visuals, direct links to GitHub, LinkedIn, and LeetCode, and a downloadable resume—built for professional presentation and easy sharing.',
+        features: [
+            'Real-time public chat and private DMs using Socket.IO.'
+            , 
+            'Secure login with JWT and Google OAuth.'
+            ,
+            'Carpool system to reduce travel costs.'
+            ,
+            'Lost & Found with searchable listings.'
+            ,
+            'Project posts to connect for collaborations.'
+            ,
+            'Peer-to-peer car rental listings.'
+        ],
+        technologies: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Socket.IO'],
     }
 ]

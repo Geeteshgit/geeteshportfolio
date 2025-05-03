@@ -5,7 +5,6 @@ import { motion } from 'motion/react'
 import { PiCodeLight, PiReadCvLogo } from "react-icons/pi";
 import About from './About';
 import MovingBanner from './MovingBanner';
-import Link from 'next/link';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { GrGithub } from 'react-icons/gr';
 import { MdOutlineMail } from 'react-icons/md';
@@ -41,9 +40,6 @@ const childVariants = {
 }
 
 const Home = () => {
-
-  const MotionLink = motion.create(Link);
-
   return (
     <section id='home' className='relative purple-background min-h-screen flex flex-col lg:gap-25 gap-15 scroll-mt-[100px] pb-20'>
       <div className='absolute top-0 right-0 bg-purple-500 w-[150px] h-[150px] opacity-80 blur-[150px] rounded-full' />
@@ -74,38 +70,38 @@ const Home = () => {
             I build purpose-driven web solutions that prioritize speed, simplicity, and meaningful impact.
           </motion.p>
           <div className="flex items-center gap-2">
-          <MotionLink 
+          <motion.a 
             href={`https://www.linkedin.com/in/${myData.linkedin}/`} 
             target="_blank" 
             className="text-2xl p-1.5 z-10 border border-purple-400 rounded-full text-purple-400 hover:scale-110 transition-all duration-300"
             variants={childVariants}
           >
             <FaLinkedinIn />
-          </MotionLink>
-          <MotionLink 
+          </motion.a>
+          <motion.a 
             href={`https://github.com/${myData.github}`}
             target="_blank" 
             className="text-2xl p-1.5 z-10 border border-purple-400 rounded-full text-purple-400 hover:scale-110 transition-all duration-300"
             variants={childVariants}
           >
             <GrGithub />
-          </MotionLink>
-          <MotionLink 
+          </motion.a>
+          <motion.a 
             href={`./${myData.resume}`} 
             target="_blank" 
             className="text-2xl p-1.5 z-10 border border-purple-400 rounded-full text-purple-400 hover:scale-110 transition-all duration-300"
             variants={childVariants}
           >
             <PiReadCvLogo />
-          </MotionLink>
-          <MotionLink 
+          </motion.a>
+          <motion.a 
             href={`mailto:${myData.email}`} 
             target="_blank" 
             className="text-2xl p-1.5 z-10 border border-purple-400 rounded-full text-purple-400 hover:scale-110 transition-all duration-300"
             variants={childVariants}
           >
             <MdOutlineMail />
-          </MotionLink>
+          </motion.a>
         </div>
         </motion.div>
         <motion.div 

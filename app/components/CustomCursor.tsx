@@ -12,9 +12,10 @@ const CustomCursor = () => {
       if (!cursor) return;
 
       const target = e.target as HTMLElement;
-      const isClickable = target.closest("a, button, [role='button'], select");
+      const isClickable = target.closest("a, select, button");
+      const noExpand = target.closest(".no-expand");
 
-      if (isClickable) {
+      if (isClickable && !noExpand) {
         const rect = (isClickable as HTMLElement).getBoundingClientRect();
         cursor.style.width = `${rect.width}px`;
         cursor.style.height = `${rect.height}px`;

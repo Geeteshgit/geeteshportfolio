@@ -1,5 +1,4 @@
 import { myData } from '@/data/myData';
-import Link from 'next/link';
 import React from 'react'
 import { MdOutlineMail } from 'react-icons/md';
 import { PiReadCvLogo } from 'react-icons/pi';
@@ -15,44 +14,44 @@ const Footer = () => {
           <span className='text-2xl sm:text-3xl font-bold'>Geetesh Dalal</span>
           <p className='text-neutral-400 text-sm sm:text-base'>Blending creativity with code to bring your vision to life.</p>
           <div className='flex gap-1'>
-            <Link 
+            <a 
               href={`https://www.linkedin.com/in/${myData.linkedin}/`} 
               target="_blank" 
               className="text-2xl lg:text-xl hover:scale-110 transition-all duration-300 p-1"
             >
               <SlSocialLinkedin />
-            </Link>
-            <Link 
+            </a>
+            <a 
               href={`https://github.com/${myData.github}`}
               target="_blank" 
               className="text-2xl lg:text-xl hover:scale-110 transition-all duration-300 p-1"
             >
               <VscGithubAlt />
-            </Link>
-            <Link 
+            </a>
+            <a 
               href={`./${myData.resume}`}
               target="_blank" 
               className="text-2xl lg:text-xl hover:scale-110 transition-all duration-300 p-1"
             >
               <PiReadCvLogo />
-            </Link>
-            <Link 
+            </a>
+            <a 
               href={`https://leetcode.com/u/${myData.leetcode}/`} 
               target="_blank" 
               className="text-2xl lg:text-xl hover:scale-110 transition-all duration-300 p-1"
             >
               <SiLeetcode />
-            </Link>
+            </a>
           </div>
         </div>
         <div className='lg:w-1/3 flex flex-col gap-2 items-center lg:items-start'>
           <p className='lg:text-lg text-base text-center lg:text-left'>Feel free to reach out to me for any inquiries or collaboration opportunities.</p>
           <p>
-            <Link 
-              className='flex items-center gap-2 text-blue-500 hover:underline lg:p-1'
+            <a 
+              className='flex items-center gap-2 text-blue-500 hover:underline lg:p-1 no-expand'
               href={`mailto:${myData.email}`}>
                 <MdOutlineMail className='lg:text-xl text-lg' /> {myData.email}
-            </Link>
+            </a>
           </p>
         </div>
       </div>
