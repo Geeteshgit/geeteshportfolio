@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { motion, useScroll } from "motion/react";
+import { motion } from "motion/react";
 import { projects } from "@/data/myData";
 import ProjectCard from "./ProjectCard";
 import ProjectInfo from "./ProjectInfo";

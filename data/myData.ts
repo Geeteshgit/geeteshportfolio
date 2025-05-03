@@ -76,21 +76,15 @@ export const projects: Projects[] = [
         image: 'portfolio.png',
         caption: 'A sleek full stack developer portfolio to showcase skills, projects, and coding profiles.',
         name: 'Personal Portfolio',
-        link: 'https://campushive-snowy.vercel.app/',
+        link: 'https://geeteshdalal.vercel.app/',
         github: 'https://github.com/Geeteshgit/geeteshportfolio.git',
         description: 'A fully responsive web developer portfolio designed to highlight personal projects, technical stack, and online presence across coding platforms. It features project cards with visuals, direct links to GitHub, LinkedIn, and LeetCode, and a downloadable resume—built for professional presentation and easy sharing.',
         features: [
-            'Real-time public chat and private DMs using Socket.IO.'
+            'Built with Next.js and TypeScript for fast and scalable performance.'
             , 
-            'Secure login with JWT and Google OAuth.'
+            'Styled using Tailwind CSS for full responsiveness across devices.'
             ,
-            'Carpool system to reduce travel costs.'
-            ,
-            'Lost & Found with searchable listings.'
-            ,
-            'Project posts to connect for collaborations.'
-            ,
-            'Peer-to-peer car rental listings.'
+            'Enhanced with smooth animations using Framer Motion.'
         ],
         technologies: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Socket.IO'],
     }
