@@ -37,7 +37,7 @@ const ProjectInfo: React.FC<Projects> = (props) => {
                 key={idx}
                 className="flex items-center gap-1 text-sm bg-neutral-900 px-3 py-1 border border-neutral-700 rounded-lg shadow-lg shadow-purple-500/10">
               <motion.img
-                src={`icons/${tech}.svg`}
+                src={`/icons/${tech}.svg`}
                 alt="technology-icon"
                 className="h-4"
               />

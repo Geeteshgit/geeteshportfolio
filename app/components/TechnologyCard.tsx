@@ -17,7 +17,7 @@ const TechnologyCard = ({ technology, icon }: Technology) => {
     whileHover='scaleup'
     className='flex items-center gap-2 sm:text-lg text-sm bg-neutral-900 sm:px-5 px-3 py-1 border border-neutral-700 rounded-xl shadow-lg shadow-purple-500/10'>
         <motion.img 
-            src={`./icons/${icon}`} 
+            src={`/icons/${icon}`} 
             alt="technology-icon"     
             className='sm:h-5 h-4'
             variants={cardVariants}
