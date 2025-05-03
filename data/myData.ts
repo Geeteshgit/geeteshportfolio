@@ -48,7 +48,7 @@ export const projects: Projects[] = [
             ,
             'Peer-to-peer car rental listings.'
         ],
-        technologies: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Socket.IO'],
+        technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'CSS3', 'Socket.IO']
     },
     {
         image: 'codev.png',
@@ -70,7 +70,7 @@ export const projects: Projects[] = [
             ,
             'Peer-to-peer car rental listings.'
         ],
-        technologies: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Socket.IO'],
+        technologies: ['React.js', 'Node.js', 'Express.js', 'CSS3', 'MongoDB']
     },
     {
         image: 'portfolio.png',
@@ -86,6 +86,6 @@ export const projects: Projects[] = [
             ,
             'Enhanced with smooth animations using Framer Motion.'
         ],
-        technologies: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Socket.IO'],
+        technologies: ['Next.js', 'React.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion']
     }
 ]
