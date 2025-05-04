@@ -36,7 +36,7 @@ const childVariants = {
 const ProjectInfo: React.FC<ProjectInfoProps> = (props) => {
   return (
     <motion.div 
-      className="lg:w-2/5 w-full flex flex-col gap-6"
+      className="w-full flex flex-col gap-6"
       style={{
         opacity: props.opacityContent
       }}

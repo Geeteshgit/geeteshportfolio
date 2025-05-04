@@ -28,7 +28,7 @@ const FeaturedProjects = () => {
         initial={{ y: 25, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.75 }}
-        className="sm:text-5xl text-4xl text-center font-bold bg-gradient-to-r bg-clip-text text-transparent from-purple-600 to-purple-200"
+        className="sm:text-5xl text-3xl text-center font-bold bg-gradient-to-r bg-clip-text text-transparent from-purple-600 to-purple-200"
       >
         FEATURED PROJECTS
       </motion.h1>

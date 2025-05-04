@@ -41,7 +41,7 @@ const childVariants = {
 
 const Home = () => {
   return (
-    <section id='home' className='relative purple-background min-h-screen flex flex-col lg:gap-25 gap-15 scroll-mt-[100px] pb-20'>
+    <section id='home' className='relative black-background min-h-screen flex flex-col lg:gap-25 gap-15 scroll-mt-[100px] pb-20'>
       <div className='absolute top-0 right-0 bg-purple-500 w-[150px] h-[150px] opacity-80 blur-[150px] rounded-full' />
       <div className='absolute top-1/4 left-1/2 -translate-1/2 bg-purple-500 w-[200px] h-[200px] opacity-80 blur-[150px] rounded-full' />
       <div>
@@ -105,7 +105,7 @@ const Home = () => {
         </div>
         </motion.div>
         <motion.div 
-          className='lg:min-w-[350px] lg:h-[450px] lg:w-[450px] sm:h-[350px] sm:w-[350px] h-[250px] w-[250px] z-20 overflow-hidden rounded-4xl lg:rotate-6 border-2 border-purple-900 hover:border-purple-600 hover:rotate-0 duration-350 transition-all'
+          className='lg:min-w-[350px] lg:h-[450px] lg:w-[450px] sm:h-[350px] sm:w-[350px] h-[275px] w-[275px] z-20 overflow-hidden rounded-4xl lg:rotate-6 border-2 border-purple-900 hover:border-purple-600 hover:rotate-0 duration-350 transition-all'
           variants={childVariants}
           initial='hidden'
           animate='visible'

@@ -37,12 +37,12 @@ const About = () => {
     
   return (
     <div id='about' className='w-full mx-auto scroll-mt-[100px] lg:px-44 sm:px-24 px-4'>
-        <motion.h1 className='text-5xl font-bold text-center pb-14 bg-gradient-to-r bg-clip-text text-transparent from-purple-500 to-purple-200'
+        <motion.h1 className='sm:text-5xl text-4xl font-bold text-center pb-14 bg-gradient-to-r bg-clip-text text-transparent from-purple-500 to-purple-200'
             variants={variants}
             initial='hidden'
             animate={isInView ? 'visible' : 'hidden'}
         >
-            About Me
+            ABOUT ME
         </motion.h1>
         <motion.div className='border border-purple-500 bg-purple-900/5 backdrop-blur-xs lg:p-10 sm:p-7 p-5 rounded-xl flex flex-col gap-6'
             ref={ref}

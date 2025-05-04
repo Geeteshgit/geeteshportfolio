@@ -47,7 +47,7 @@ const Skills = () => {
   const pathLength = useTransform(scrollYProgress, [0.10, 0.45], [0, 1]);
 
   return (
-    <section ref={svgref} id='skills' className='relative purple-background flex flex-col gap-10 justify-between items-center pt-[100px] pb-20 lg:px-44 sm:px-28 px-4'>
+    <section ref={svgref} id='skills' className='relative black-background flex flex-col gap-6 justify-between items-center pt-[100px] pb-20 lg:px-44 sm:px-28 px-4'>
         <motion.h1 
           className='sm:text-5xl text-4xl font-bold bg-gradient-to-r bg-clip-text text-transparent from-purple-500 to-purple-200 z-20'
           variants={variants}
@@ -56,7 +56,7 @@ const Skills = () => {
           >
           MY TECH STACK
         </motion.h1>
-        <svg viewBox="0 0 200 200" className='sm:w-[300px] sm:h-[300px] w-[200px] h-[200px]'>
+        <svg viewBox="0 0 200 200" className='sm:h-[150px] h-[100px] opacity-75'>
         <motion.path
           d="M70 60 L0 100 L70 140" // < 
           stroke="#A78BFA"

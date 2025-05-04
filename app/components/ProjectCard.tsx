@@ -10,7 +10,7 @@ interface ProjectCardProps extends Projects {
 
 const ProjectCard: React.FC<ProjectCardProps> = (props) => {
   return (
-    <a className="lg:w-3/5 w-full no-expand" href={props.link} target="_blank">
+    <a className="w-full no-expand" href={props.link} target="_blank">
       <motion.div 
       style={{ 
         y: props.translateContent,  

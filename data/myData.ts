@@ -40,7 +40,7 @@ export const projects: Projects[] = [
             , 
             'Secure login with JWT and Google OAuth.'
             ,
-            'Carpool system to reduce travel costs.'
+            'Carpool posts to reduce travel costs.'
             ,
             'Lost & Found with searchable listings.'
             ,
@@ -81,7 +81,7 @@ export const featuredProjects: Projects[] = [
             , 
             'Secure login with JWT and Google OAuth.'
             ,
-            'Carpool system to reduce travel costs.'
+            'Carpool posts to reduce travel costs.'
             ,
             'Lost & Found with searchable listings.'
             ,

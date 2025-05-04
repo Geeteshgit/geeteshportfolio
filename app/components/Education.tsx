@@ -39,7 +39,7 @@ const Education = () => {
   const isInView = useInView(ref);
 
   return (
-    <section id='education' className='purple-background flex flex-col items-center gap-15 pt-[100px] pb-20 lg:px-44 sm:px-28 px-4'>
+    <section id='education' className='black-background flex flex-col items-center gap-15 pt-[100px] pb-20 lg:px-44 sm:px-28 px-4'>
         <motion.h1 
           className='sm:text-5xl text-4xl font-bold bg-gradient-to-r bg-clip-text text-transparent from-purple-500 to-purple-200 z-20'
           variants={variants}

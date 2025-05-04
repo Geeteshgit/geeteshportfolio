@@ -6,6 +6,7 @@ import { featuredProjects } from "@/data/myData";
 import ProjectCard from "../components/ProjectCard";
 import ProjectInfo from "../components/ProjectInfo";
 import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 const Projects = () => {
   const ref = useRef<HTMLDivElement>(null);
@@ -15,7 +16,6 @@ const Projects = () => {
     offset: ["start end", "end start"],
   });
 
-  const translateContent = useTransform(scrollYProgress, [0, 1], [45, -45]);
   const opacityContent = useTransform(
     scrollYProgress,
     [0, 0.1, 0.9, 1],
@@ -24,9 +24,10 @@ const Projects = () => {
 
   return (
     <>
+      <Navbar />
       <section
         id="projects"
-        className="black-background min-h-screen flex flex-col items-center lg:gap-24 gap-12 pt-[100px] lg:pb-30 sm:pb-24 pb-16 lg:px-44 sm:px-28 px-4"
+        className="black-background min-h-screen flex flex-col items-center lg:gap-24 gap-12 pt-8 lg:pb-30 sm:pb-24 pb-16 lg:px-44 sm:px-28 px-4"
       >
         <motion.h1
           initial={{ y: 25, opacity: 0 }}
@@ -34,9 +35,9 @@ const Projects = () => {
           transition={{ duration: 0.75 }}
           className="sm:text-5xl text-4xl text-center font-bold bg-gradient-to-r bg-clip-text text-transparent from-purple-600 to-purple-200"
         >
-          PROJECTS
+          MY PROJECTS
         </motion.h1>
-        <div className="flex flex-col sm:gap-36 gap-18" ref={ref}>
+        <div className="flex flex-col sm:gap-24 gap-18" ref={ref}>
           {featuredProjects.map((project) => {
             return (
               <motion.div
@@ -48,7 +49,6 @@ const Projects = () => {
                   caption={project.caption}
                   link={project.link}
                   name={project.name}
-                  translateContent={translateContent}
                   opacityContent={opacityContent}
                 />
                 <ProjectInfo

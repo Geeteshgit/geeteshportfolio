@@ -1,5 +1,4 @@
-'use client'
-
+import Marquee from "react-fast-marquee";
 import React from 'react'
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
@@ -12,60 +11,39 @@ import { SiMongodb } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 import { IoLogoGithub } from "react-icons/io";
-import { motion } from 'motion/react';
 import { PiDiamondLight } from 'react-icons/pi';
 
 const MovingBanner = () => {
   return (
-    <div className='w-full bg-purple-500 -rotate-3 lg:py-4 sm:py-3 py-2 overflow-hidden'>
-      <motion.div className='flex items-center lg:gap-10 sm:gap-8 gap-6 marquee-banner'>
-        <PiDiamondLight className='lg:text-xl sm:text-lg shrink-0 opacity-80 inline-block'/>
-        <FaHtml5 className='lg:text-5xl sm:text-4xl text-3xl shrink-0 opacity-80 inline-block'/>
-        <PiDiamondLight className='lg:text-xl sm:text-lg shrink-0 opacity-80 inline-block'/>
-        <FaCss3Alt className='lg:text-5xl sm:text-4xl text-3xl shrink-0 opacity-80 inline-block'/>
-        <PiDiamondLight className='lg:text-xl sm:text-lg shrink-0 opacity-80 inline-block'/>
-        <IoLogoJavascript className='lg:text-5xl sm:text-4xl text-3xl shrink-0 opacity-80 inline-block'/>
-        <PiDiamondLight className='lg:text-xl sm:text-lg shrink-0 opacity-80 inline-block'/>
-        <FaReact className='lg:text-5xl sm:text-4xl text-3xl shrink-0 opacity-80 inline-block'/>
-        <PiDiamondLight className='lg:text-xl sm:text-lg shrink-0 opacity-80 inline-block'/>
-        <SiTypescript className='lg:text-5xl sm:text-4xl text-3xl shrink-0 opacity-80 inline-block'/>
-        <PiDiamondLight className='lg:text-xl sm:text-lg shrink-0 opacity-80 inline-block'/>
-        <FaNodeJs className='lg:text-5xl sm:text-4xl text-3xl shrink-0 opacity-80 inline-block'/>
-        <PiDiamondLight className='lg:text-xl sm:text-lg shrink-0 opacity-80 inline-block'/>
-        <SiExpress className='lg:text-5xl sm:text-4xl text-3xl shrink-0 opacity-80 inline-block'/>
-        <PiDiamondLight className='lg:text-xl sm:text-lg shrink-0 opacity-80 inline-block'/>
-        <SiMongodb className='lg:text-5xl sm:text-4xl text-3xl shrink-0 opacity-80 inline-block'/>
-        <PiDiamondLight className='lg:text-xl sm:text-lg shrink-0 opacity-80 inline-block'/>
-        <SiMysql className='lg:text-5xl sm:text-4xl text-3xl shrink-0 opacity-80 inline-block'/>
-        <PiDiamondLight className='lg:text-xl sm:text-lg shrink-0 opacity-80 inline-block'/>
-        <RiNextjsFill className='lg:text-5xl sm:text-4xl text-3xl shrink-0 opacity-80 inline-block'/>
-        <PiDiamondLight className='lg:text-xl sm:text-lg shrink-0 opacity-80 inline-block'/>
-        <IoLogoGithub className='lg:text-5xl sm:text-4xl text-3xl shrink-0 opacity-80 inline-block'/>
-        <PiDiamondLight className='lg:text-xl sm:text-lg shrink-0 opacity-80 inline-block'/>
-        <FaHtml5 className='lg:text-5xl sm:text-4xl text-3xl shrink-0 opacity-80 inline-block'/>
-        <PiDiamondLight className='lg:text-xl sm:text-lg shrink-0 opacity-80 inline-block'/>
-        <FaCss3Alt className='lg:text-5xl sm:text-4xl text-3xl shrink-0 opacity-80 inline-block'/>
-        <PiDiamondLight className='lg:text-xl sm:text-lg shrink-0 opacity-80 inline-block'/>
-        <IoLogoJavascript className='lg:text-5xl sm:text-4xl text-3xl shrink-0 opacity-80 inline-block'/>
-        <PiDiamondLight className='lg:text-xl sm:text-lg shrink-0 opacity-80 inline-block'/>
-        <FaReact className='lg:text-5xl sm:text-4xl text-3xl shrink-0 opacity-80 inline-block'/>
-        <PiDiamondLight className='lg:text-xl sm:text-lg shrink-0 opacity-80 inline-block'/>
-        <SiTypescript className='lg:text-5xl sm:text-4xl text-3xl shrink-0 opacity-80 inline-block'/>
-        <PiDiamondLight className='lg:text-xl sm:text-lg shrink-0 opacity-80 inline-block'/>
-        <FaNodeJs className='lg:text-5xl sm:text-4xl text-3xl shrink-0 opacity-80 inline-block'/>
-        <PiDiamondLight className='lg:text-xl sm:text-lg shrink-0 opacity-80 inline-block'/>
-        <SiExpress className='lg:text-5xl sm:text-4xl text-3xl shrink-0 opacity-80 inline-block'/>
-        <PiDiamondLight className='lg:text-xl sm:text-lg shrink-0 opacity-80 inline-block'/>
-        <SiMongodb className='lg:text-5xl sm:text-4xl text-3xl shrink-0 opacity-80 inline-block'/>
-        <PiDiamondLight className='lg:text-xl sm:text-lg shrink-0 opacity-80 inline-block'/>
-        <SiMysql className='lg:text-5xl sm:text-4xl text-3xl shrink-0 opacity-80 inline-block'/>
-        <PiDiamondLight className='lg:text-xl sm:text-lg shrink-0 opacity-80 inline-block'/>
-        <RiNextjsFill className='lg:text-5xl sm:text-4xl text-3xl shrink-0 opacity-80 inline-block'/>
-        <PiDiamondLight className='lg:text-xl sm:text-lg shrink-0 opacity-80 inline-block'/>
-        <IoLogoGithub className='lg:text-5xl sm:text-4xl text-3xl shrink-0 opacity-80 inline-block'/>
-        <PiDiamondLight className='lg:text-xl sm:text-lg shrink-0 opacity-80 inline-block'/>
-      </motion.div>
-    </div>
+      <Marquee 
+        autoFill={true} 
+        gradient={true}  
+        gradientWidth={100} 
+        gradientColor="#A855F7"
+        className="bg-purple-500 -rotate-3 lg:h-16 sm:h-14 h-12">
+        <FaHtml5 className="lg:text-5xl sm:text-4xl text-3xl" />
+        <PiDiamondLight className="lg:text-base sm:text-sm text-xs sm:mx-8 mx-4" />
+        <FaCss3Alt className="lg:text-5xl sm:text-4xl text-3xl" />
+        <PiDiamondLight className="lg:text-base sm:text-sm text-xs sm:mx-8 mx-4" />
+        <IoLogoJavascript className="lg:text-5xl sm:text-4xl text-3xl" />
+        <PiDiamondLight className="lg:text-base sm:text-sm text-xs sm:mx-8 mx-4" />
+        <FaReact className="lg:text-5xl sm:text-4xl text-3xl" />
+        <PiDiamondLight className="lg:text-base sm:text-sm text-xs sm:mx-8 mx-4" />
+        <SiTypescript className="lg:text-5xl sm:text-4xl text-3xl" />
+        <PiDiamondLight className="lg:text-base sm:text-sm text-xs sm:mx-8 mx-4" />
+        <FaNodeJs className="lg:text-5xl sm:text-4xl text-3xl" />
+        <PiDiamondLight className="lg:text-base sm:text-sm text-xs sm:mx-8 mx-4" />
+        <SiExpress className="lg:text-5xl sm:text-4xl text-3xl" />
+        <PiDiamondLight className="lg:text-base sm:text-sm text-xs sm:mx-8 mx-4" />
+        <SiMongodb className="lg:text-5xl sm:text-4xl text-3xl" />
+        <PiDiamondLight className="lg:text-base sm:text-sm text-xs sm:mx-8 mx-4" />
+        <SiMysql className="lg:text-5xl sm:text-4xl text-3xl" />
+        <PiDiamondLight className="lg:text-base sm:text-sm text-xs sm:mx-8 mx-4" />
+        <RiNextjsFill className="lg:text-5xl sm:text-4xl text-3xl" />
+        <PiDiamondLight className="lg:text-base sm:text-sm text-xs sm:mx-8 mx-4" />
+        <IoLogoGithub className="lg:text-5xl sm:text-4xl text-3xl" />
+        <PiDiamondLight className="lg:text-base sm:text-sm text-xs sm:mx-8 mx-4" />
+      </Marquee>
   )
 }
 

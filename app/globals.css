@@ -24,10 +24,6 @@
   background-color: #050709;
 }
 
-.purple-background {
-  background-color: #0F0715;
-}
-
 .scale-infinite {
   animation: scaleInfinite 5s ease-in-out infinite;
 }
@@ -42,7 +38,7 @@
 }
 
 body {
-    background-color: #0F0715;
+    background-color: #050709;
     color: #DDDDDD;
     overflow-x: hidden;
 }
