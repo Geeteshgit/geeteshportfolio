@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
 @import "tailwindcss";
 
 @keyframes scaleInfinite {
@@ -11,26 +10,12 @@
   }
 }
 
-@keyframes moveInfinite {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
-
 .black-background {
   background-color: #050709;
 }
 
 .scale-infinite {
   animation: scaleInfinite 5s ease-in-out infinite;
-}
-
-.marquee-banner {
-  animation: moveInfinite 10s linear infinite;
-  display: flex;
 }
 
 ::-webkit-scrollbar {
