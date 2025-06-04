@@ -19,7 +19,7 @@ export interface Projects {
 }
 
 export const myData: Data = {
-    email: 'geetesh472@gmail.com',
+    email: 'geeteshdalal.work@gmail.com',
     linkedin: 'geeteshdalal',
     resume: 'Geetesh_Resume.pdf',
     github: 'Geeteshgit',
