@@ -9,6 +9,7 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import { GrGithub } from 'react-icons/gr';
 import { MdOutlineMail } from 'react-icons/md';
 import { myData } from '@/data/myData';
+import Image from 'next/image';
 
 const variants = {
   hidden: {
@@ -105,15 +106,16 @@ const Home = () => {
         </div>
         </motion.div>
         <motion.div 
-          className='lg:min-w-[350px] lg:h-[450px] lg:w-[450px] sm:h-[350px] sm:w-[350px] h-[275px] w-[275px] z-20 overflow-hidden rounded-4xl lg:rotate-6 border-2 border-purple-900 hover:border-purple-600 hover:rotate-0 duration-350 transition-all'
+          className='relative lg:min-w-[350px] lg:h-[450px] lg:w-[450px] sm:h-[350px] sm:w-[350px] h-[275px] w-[275px] z-20 overflow-hidden rounded-4xl lg:rotate-6 border-2 border-purple-900 hover:border-purple-600 hover:rotate-0 duration-350 transition-all'
           variants={childVariants}
           initial='hidden'
           animate='visible'
           >
-          <img 
-            src="user.jpg" 
+          <Image 
+            src="/user.jpg" 
             alt="user-img" 
-            className='w-full h-full object-cover' 
+            className='object-cover' 
+            fill
           />
         </motion.div>
       </div>

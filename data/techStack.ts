@@ -82,11 +82,16 @@ export const technologies: Technology[] = [
   },
   { 
     id: 16, 
+    icon: "Redux.svg", 
+    technology: "Redux" 
+  },
+  { 
+    id: 17, 
     icon: "Figma.svg", 
     technology: "Figma" 
   },
   { 
-    id: 17, 
+    id: 18, 
     icon: "Java.svg", 
     technology: "Java" 
   }

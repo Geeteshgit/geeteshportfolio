@@ -29,6 +29,23 @@ export const myData: Data = {
 
 export const projects: Projects[] = [
     {
+        image: 'codev.png',
+        caption: 'A powerful platform for developers to showcase their coding profiles, projects, and skills.',
+        name: 'Codev',
+        link: 'https://codev-ten.vercel.app/',
+        github: 'https://github.com/Geeteshgit/Codev.git',
+        description: 'Codev is a developer portfolio and discovery platform where users showcase their skills, projects, and coding profiles (like GitHub, LeetCode, etc.). It features personalized profiles and project highlights to help developers stand out and get discovered.',
+        features: [
+            'Personalized portfolios to showcase coding profiles like LeetCode, Codeforces, GitHub, and more.',
+            'Project section with descriptions, live links, and technologies used.',
+            'Explore and discover developers or get discovered by recruiters based on skills.',
+            'JWT-based authentication for secure login and session management.',
+            'Image uploads handled via Cloudinary.',
+            'State management using Redux for smooth user experience.'
+        ],
+        technologies: ['Next.js', 'React.js', 'Tailwind CSS', 'MongoDB', 'Redux', 'Framer Motion']
+    },
+    {
         image: 'campushive.png',
         caption: 'A student-driven platform solving daily campus challenges through seamless communication and collaboration.',
         name: 'CampusHive',
@@ -58,7 +75,7 @@ export const projects: Projects[] = [
         github: 'https://github.com/Geeteshgit/geeteshportfolio.git',
         description: 'A fully responsive web developer portfolio designed to highlight personal projects, technical stack, and online presence across coding platforms. It features project cards with visuals, direct links to GitHub, LinkedIn, and LeetCode, and a downloadable resume—built for professional presentation and easy sharing.',
         features: [
-            'Built with Next.js and TypeScript for fast and scalable performance.'
+            'Built with Next.js and TypeScript for fast performance.'
             , 
             'Styled using Tailwind CSS for full responsiveness across devices.'
             ,
@@ -70,6 +87,23 @@ export const projects: Projects[] = [
 
 export const featuredProjects: Projects[] = [
     {
+        image: 'codev.png',
+        caption: 'A powerful platform for developers to showcase their coding profiles, projects, and skills.',
+        name: 'Codev',
+        link: 'https://codev-ten.vercel.app/',
+        github: 'https://github.com/Geeteshgit/Codev.git',
+        description: 'Codev is a developer portfolio and discovery platform where users showcase their skills, projects, and coding profiles (like GitHub, LeetCode, etc.). It features personalized profiles and project highlights to help developers stand out and get discovered.',
+        features: [
+            'Personalized portfolios to showcase coding profiles like LeetCode, Codeforces, GitHub, and more.',
+            'Project section with descriptions, live links, and technologies used.',
+            'Explore and discover developers or get discovered by recruiters based on skills.',
+            'JWT-based authentication for secure login and session management.',
+            'Image uploads handled via Cloudinary.',
+            'State management using Redux for smooth user experience.'
+        ],
+        technologies: ['Next.js', 'React.js', 'Tailwind CSS', 'MongoDB', 'Redux', 'Framer Motion']
+    },
+    {
         image: 'campushive.png',
         caption: 'A student-driven platform solving daily campus challenges through seamless communication and collaboration.',
         name: 'CampusHive',
@@ -99,7 +133,7 @@ export const featuredProjects: Projects[] = [
         github: 'https://github.com/Geeteshgit/geeteshportfolio.git',
         description: 'A fully responsive web developer portfolio designed to highlight personal projects, technical stack, and online presence across coding platforms. It features project cards with visuals, direct links to GitHub, LinkedIn, and LeetCode, and a downloadable resume—built for professional presentation and easy sharing.',
         features: [
-            'Built with Next.js and TypeScript for fast and scalable performance.'
+            'Built with Next.js and TypeScript for fast performance.'
             , 
             'Styled using Tailwind CSS for full responsiveness across devices.'
             ,
