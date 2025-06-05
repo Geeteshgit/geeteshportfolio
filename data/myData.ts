@@ -82,7 +82,51 @@ export const projects: Projects[] = [
             'Enhanced with smooth animations using Framer Motion.'
         ],
         technologies: ['Next.js', 'React.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion']
-    }
+    },
+    {
+        image: 'weather-wiz.png',
+        caption: 'A clean and responsive weather app that provides real-time forecasts using the AccuWeather API.',
+        name: 'Weather Wiz',
+        link: 'https://weather-wiz-ruby.vercel.app/',
+        github: 'https://github.com/Geeteshgit/weather-wiz.git', 
+        description: 'Weather Wiz is a simple and user-friendly weather application that allows users to search and view current weather conditions and forecasts for cities around the world. It leverages the AccuWeather API to deliver weather updates with a sleek, responsive design built using HTML, CSS, and JavaScript.',
+        features: [
+            'Real-time weather data and forecasts powered by AccuWeather API.',
+            'Search any city to view current temperature, weather condition, and forecast.',
+            'Responsive layout optimized for both mobile and desktop viewing.',
+            'Dynamically updates the UI using JavaScript and API responses.'
+        ],
+        technologies: ['HTML5', 'CSS3', 'JavaScript']
+    },
+    {
+        image: 'bust-that-bubble-game.png',
+        caption: 'A fun and fast-paced browser game that tests your reflexes and accuracy under time pressure.',
+        name: 'Bust That Bubble Game',
+        link: 'https://bust-that-bubble-game.vercel.app/',
+        github: 'https://github.com/Geeteshgit/Bust-That-Bubble-Game.git',
+        description: 'Bust That Bubble is a web-based reflex game where players must click the correct numbered bubble within a 60-second countdown. The game dynamically generates numbered bubbles, tracks user interactions, and updates scores in real time for improving DOM manipulation skills and mastering basic game logic.',
+        features: [
+            'Timed gameplay with a 60-second countdown for urgency.',
+            'Interactive bubble system with changing targets and randomized numbers.',
+            'Score increases for correct selections and decreases for wrong clicks.',
+            'Fully responsive design playable on both desktop and mobile devices.'
+        ],
+        technologies: ['HTML5', 'CSS3', 'JavaScript']
+    },
+    {
+        image: 'dripshop.png',
+        caption: 'E-Commerce frontend-only practice project with cart functionality.',
+        name: 'DripShop',
+        link: 'https://dripshop-project.vercel.app/',
+        github: 'https://github.com/Geeteshgit/Dripshop-project.git', 
+        description: 'DripShop is a beginner-friendly e-commerce frontend-only practice project built using HTML, CSS, and JavaScript. It allows users to browse products, add them to a cart, and perform basic CRUD operations such as updating quantities or removing items in addition to being fully responsive.',
+        features: [
+            'Pure frontend project built with HTML, CSS, and vanilla JavaScript.',
+            'Includes a functional cart system with Create, Read, Update, Delete operations.',
+            'Products dynamically rendered with local storage support for persistent cart data.'
+        ],
+        technologies: ['HTML5', 'CSS3', 'JavaScript']
+    },
 ]
 
 export const featuredProjects: Projects[] = [

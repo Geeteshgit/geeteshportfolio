@@ -2,7 +2,7 @@
 
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "motion/react";
-import { featuredProjects } from "@/data/myData";
+import { projects } from "@/data/myData";
 import ProjectCard from "../components/ProjectCard";
 import ProjectInfo from "../components/ProjectInfo";
 import Footer from "../components/Footer";
@@ -37,12 +37,12 @@ const Projects = () => {
         >
           MY PROJECTS
         </motion.h1>
-        <div className="flex flex-col sm:gap-24 gap-18" ref={ref}>
-          {featuredProjects.map((project) => {
+        <div className="flex flex-col lg:gap-24 gap-14" ref={ref}>
+          {projects.map((project) => {
             return (
               <motion.div
                 key={project.name}
-                className="flex flex-col lg:flex-row lg:gap-15 gap-10"
+                className="flex flex-col lg:flex-row lg:gap-15 gap-8"
               >
                 <ProjectCard
                   image={project.image}
