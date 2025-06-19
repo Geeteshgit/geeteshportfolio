@@ -24,7 +24,7 @@ export const myData: Data = {
     resume: 'Geetesh_Resume.pdf',
     github: 'Geeteshgit',
     leetcode: 'Geetesh_Dalal',
-    CGPA: 8.94
+    CGPA: 9.04
 }
 
 export const projects: Projects[] = [
