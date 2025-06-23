@@ -29,19 +29,18 @@ export const myData: Data = {
 
 export const projects: Projects[] = [
     {
-        image: 'codev.png',
-        caption: 'A powerful platform for developers to showcase their coding profiles, projects, and skills.',
-        name: 'Codev',
-        link: 'https://codev-ten.vercel.app/',
-        github: 'https://github.com/Geeteshgit/Codev.git',
-        description: 'Codev is a developer portfolio and discovery platform where users showcase their skills, projects, and coding profiles (like GitHub, LeetCode, etc.). It features personalized profiles and project highlights to help developers stand out and get discovered.',
+        image: 'genpalette.png',
+        caption: 'An AI-powered tool to generate, preview, explore, and save cohesive color palettes with real-time visuals.',
+        name: 'GenPalette',
+        link: 'https://genpalette-virid.vercel.app/',
+        github: 'https://github.com/Geeteshgit/genpalette.git',
+        description: 'GenPalette is an AI-powered color palette generation and visualization tool built for developers and designers. It enables users to effortlessly create, preview, explore and save cohesive color themes using Gemini AI.',
         features: [
-            'Personalized portfolios to showcase coding profiles like LeetCode, Codeforces, GitHub, and more.',
-            'Project section with descriptions, live links, and technologies used.',
-            'Explore and discover developers or get discovered by recruiters based on skills.',
-            'JWT-based authentication for secure login and session management.',
-            'Image uploads handled via Cloudinary.',
-            'State management using Redux for smooth user experience.'
+            'AI-powered tool to generate cohesive and random color palettes using Gemini API.',
+            'Live preview and explore section with AI-generated palettes.',
+            'User dashboard to save and manage favorite palettes and colors.',
+            'Dynamic imports and custom React hooks for optimized performance and clean code.',
+            'Secure authentication with Auth.js and smooth UI animations using Framer Motion.'
         ],
         technologies: ['Next.js', 'React.js', 'Tailwind CSS', 'MongoDB', 'Redux', 'Framer Motion']
     },
@@ -66,6 +65,23 @@ export const projects: Projects[] = [
             'Peer-to-peer car rental listings.'
         ],
         technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'CSS3', 'Socket.IO']
+    },
+    {
+        image: 'codev.png',
+        caption: 'A powerful platform for developers to showcase their coding profiles, projects, and skills.',
+        name: 'Codev',
+        link: 'https://codev-ten.vercel.app/',
+        github: 'https://github.com/Geeteshgit/Codev.git',
+        description: 'Codev is a developer portfolio and discovery platform where users showcase their skills, projects, and coding profiles (like GitHub, LeetCode, etc.). It features personalized profiles and project highlights to help developers stand out and get discovered.',
+        features: [
+            'Personalized portfolios to showcase coding profiles like LeetCode, Codeforces, GitHub, and more.',
+            'Project section with descriptions, live links, and technologies used.',
+            'Explore and discover developers or get discovered by recruiters based on skills.',
+            'JWT-based authentication for secure login and session management.',
+            'Image uploads handled via Cloudinary.',
+            'State management using Redux for smooth user experience.'
+        ],
+        technologies: ['Next.js', 'React.js', 'Tailwind CSS', 'MongoDB', 'Redux', 'Framer Motion']
     },
     {
         image: 'portfolio.png',
@@ -131,19 +147,18 @@ export const projects: Projects[] = [
 
 export const featuredProjects: Projects[] = [
     {
-        image: 'codev.png',
-        caption: 'A powerful platform for developers to showcase their coding profiles, projects, and skills.',
-        name: 'Codev',
-        link: 'https://codev-ten.vercel.app/',
-        github: 'https://github.com/Geeteshgit/Codev.git',
-        description: 'Codev is a developer portfolio and discovery platform where users showcase their skills, projects, and coding profiles (like GitHub, LeetCode, etc.). It features personalized profiles and project highlights to help developers stand out and get discovered.',
+        image: 'genpalette.png',
+        caption: 'An AI-powered tool to generate, preview, explore, and save cohesive color palettes with real-time visuals.',
+        name: 'GenPalette',
+        link: 'https://genpalette-virid.vercel.app/',
+        github: 'https://github.com/Geeteshgit/genpalette.git',
+        description: 'GenPalette is an AI-powered color palette generation and visualization tool built for developers and designers. It enables users to effortlessly create, preview, explore and save cohesive color themes using Gemini AI.',
         features: [
-            'Personalized portfolios to showcase coding profiles like LeetCode, Codeforces, GitHub, and more.',
-            'Project section with descriptions, live links, and technologies used.',
-            'Explore and discover developers or get discovered by recruiters based on skills.',
-            'JWT-based authentication for secure login and session management.',
-            'Image uploads handled via Cloudinary.',
-            'State management using Redux for smooth user experience.'
+            'AI-powered tool to generate cohesive and random color palettes using Gemini API.',
+            'Live preview and explore section with AI-generated palettes.',
+            'User dashboard to save and manage favorite palettes and colors.',
+            'Dynamic imports and custom React hooks for optimized performance and clean code.',
+            'Secure authentication with Auth.js and smooth UI animations using Framer Motion.'
         ],
         technologies: ['Next.js', 'React.js', 'Tailwind CSS', 'MongoDB', 'Redux', 'Framer Motion']
     },
@@ -170,19 +185,20 @@ export const featuredProjects: Projects[] = [
         technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'CSS3', 'Socket.IO']
     },
     {
-        image: 'portfolio.png',
-        caption: 'A sleek full stack developer portfolio to showcase skills, projects, and coding profiles.',
-        name: 'Personal Portfolio',
-        link: 'https://geeteshdalal.vercel.app/',
-        github: 'https://github.com/Geeteshgit/geeteshportfolio.git',
-        description: 'A fully responsive web developer portfolio designed to highlight personal projects, technical stack, and online presence across coding platforms. It features project cards with visuals, direct links to GitHub, LinkedIn, and LeetCode, and a downloadable resume—built for professional presentation and easy sharing.',
+        image: 'codev.png',
+        caption: 'A powerful platform for developers to showcase their coding profiles, projects, and skills.',
+        name: 'Codev',
+        link: 'https://codev-ten.vercel.app/',
+        github: 'https://github.com/Geeteshgit/Codev.git',
+        description: 'Codev is a developer portfolio and discovery platform where users showcase their skills, projects, and coding profiles (like GitHub, LeetCode, etc.). It features personalized profiles and project highlights to help developers stand out and get discovered.',
         features: [
-            'Built with Next.js and TypeScript for fast performance.'
-            , 
-            'Styled using Tailwind CSS for full responsiveness across devices.'
-            ,
-            'Enhanced with smooth animations using Framer Motion.'
+            'Personalized portfolios to showcase coding profiles like LeetCode, Codeforces, GitHub, and more.',
+            'Project section with descriptions, live links, and technologies used.',
+            'Explore and discover developers or get discovered by recruiters based on skills.',
+            'JWT-based authentication for secure login and session management.',
+            'Image uploads handled via Cloudinary.',
+            'State management using Redux for smooth user experience.'
         ],
-        technologies: ['Next.js', 'React.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion']
+        technologies: ['Next.js', 'React.js', 'Tailwind CSS', 'MongoDB', 'Redux', 'Framer Motion']
     }
 ];
