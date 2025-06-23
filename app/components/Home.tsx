@@ -88,7 +88,7 @@ const Home = () => {
             <GrGithub />
           </motion.a>
           <motion.a 
-            href={`./${myData.resume}`} 
+            href={myData.resume} 
             target="_blank" 
             className="text-2xl p-1.5 z-10 border border-purple-400 rounded-full text-purple-400 hover:scale-110 transition-all duration-300"
             variants={childVariants}

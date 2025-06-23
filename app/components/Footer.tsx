@@ -29,7 +29,7 @@ const Footer = () => {
               <VscGithubAlt />
             </a>
             <a 
-              href={`./${myData.resume}`}
+              href={myData.resume}
               target="_blank" 
               className="text-2xl lg:text-xl hover:scale-110 transition-all duration-300 p-1"
             >
