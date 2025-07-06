@@ -33,7 +33,7 @@ export const projects: Projects[] = [
         caption: 'An AI-powered tool to generate, preview, explore, and save cohesive color palettes with real-time visuals.',
         name: 'GenPalette',
         link: 'https://genpalette-virid.vercel.app/',
-        github: 'https://github.com/Geeteshgit/genpalette.git',
+        github: 'https://github.com/Geeteshgit/genpalette',
         description: 'GenPalette is an AI-powered color palette generation and visualization tool built for developers and designers. It enables users to effortlessly create, preview, explore and save cohesive color themes using Gemini AI.',
         features: [
             'AI-powered tool to generate cohesive and random color palettes using Gemini API.',
@@ -45,11 +45,29 @@ export const projects: Projects[] = [
         technologies: ['Next.js', 'React.js', 'Tailwind CSS', 'MongoDB', 'Redux', 'Framer Motion']
     },
     {
+        image: 'readmeeasy.png',
+        caption: 'Instantly generate professional README.md files with AI.',
+        name: 'ReadmeEasy',
+        link: 'https://readmeeasy.vercel.app/',
+        github: 'https://github.com/Geeteshgit/readme-easy',
+        description: 'ReadmeEasy is an AI-powered tool that helps developers create clean, structured, and professional README.md files by simply entering their project details. It uses Gemini AI to intelligently generate missing content and follows best open-source documentation practices.',
+        features: [
+            'AI-generated README.md files with intelligent content filling.',
+            'Supports all major README sections like features, usage, tech stack, screenshots, license, etc.',
+            'GitHub-style markdown preview',
+            'Live markdown editor powered by Monaco Editor.',
+            'Form-based project input with real-time preview.',
+            'Responsive and accessible design.',
+            'Download generated README as a .md file.',
+        ],
+        technologies: ['Next.js', 'React.js', 'TypeScript', 'Tailwind CSS', 'MongoDB']
+    },
+    {
         image: 'campushive.png',
         caption: 'A student-driven platform solving daily campus challenges through seamless communication and collaboration.',
         name: 'CampusHive',
         link: 'https://campushive-snowy.vercel.app/',
-        github: 'https://github.com/Geeteshgit/CampusHive.git',
+        github: 'https://github.com/Geeteshgit/CampusHive',
         description: 'CampusHive is a platform aimed at solving common campus challenges, enhancing communication, and connecting students for various needs like collaboration, carpooling, and social interactions.',
         features: [
             'Real-time public chat and private DMs using Socket.IO.'
@@ -71,7 +89,7 @@ export const projects: Projects[] = [
         caption: 'A powerful platform for developers to showcase their coding profiles, projects, and skills.',
         name: 'Codev',
         link: 'https://codev-ten.vercel.app/',
-        github: 'https://github.com/Geeteshgit/Codev.git',
+        github: 'https://github.com/Geeteshgit/Codev',
         description: 'Codev is a developer portfolio and discovery platform where users showcase their skills, projects, and coding profiles (like GitHub, LeetCode, etc.). It features personalized profiles and project highlights to help developers stand out and get discovered.',
         features: [
             'Personalized portfolios to showcase coding profiles like LeetCode, Codeforces, GitHub, and more.',
@@ -88,7 +106,7 @@ export const projects: Projects[] = [
         caption: 'A sleek full stack developer portfolio to showcase skills, projects, and coding profiles.',
         name: 'Personal Portfolio',
         link: 'https://geeteshdalal.vercel.app/',
-        github: 'https://github.com/Geeteshgit/geeteshportfolio.git',
+        github: 'https://github.com/Geeteshgit/geeteshportfolio',
         description: 'A fully responsive web developer portfolio designed to highlight personal projects, technical stack, and online presence across coding platforms. It features project cards with visuals, direct links to GitHub, LinkedIn, and LeetCode, and a downloadable resume—built for professional presentation and easy sharing.',
         features: [
             'Built with Next.js and TypeScript for fast performance.'
@@ -104,7 +122,7 @@ export const projects: Projects[] = [
         caption: 'A clean and responsive weather app that provides real-time forecasts using the AccuWeather API.',
         name: 'Weather Wiz',
         link: 'https://weather-wiz-ruby.vercel.app/',
-        github: 'https://github.com/Geeteshgit/weather-wiz.git', 
+        github: 'https://github.com/Geeteshgit/weather-wiz', 
         description: 'Weather Wiz is a simple and user-friendly weather application that allows users to search and view current weather conditions and forecasts for cities around the world. It leverages the AccuWeather API to deliver weather updates with a sleek, responsive design built using HTML, CSS, and JavaScript.',
         features: [
             'Real-time weather data and forecasts powered by AccuWeather API.',
@@ -119,7 +137,7 @@ export const projects: Projects[] = [
         caption: 'A fun and fast-paced browser game that tests your reflexes and accuracy under time pressure.',
         name: 'Bust That Bubble Game',
         link: 'https://bust-that-bubble-game.vercel.app/',
-        github: 'https://github.com/Geeteshgit/Bust-That-Bubble-Game.git',
+        github: 'https://github.com/Geeteshgit/Bust-That-Bubble-Game',
         description: 'Bust That Bubble is a web-based reflex game where players must click the correct numbered bubble within a 60-second countdown. The game dynamically generates numbered bubbles, tracks user interactions, and updates scores in real time for improving DOM manipulation skills and mastering basic game logic.',
         features: [
             'Timed gameplay with a 60-second countdown for urgency.',
@@ -134,7 +152,7 @@ export const projects: Projects[] = [
         caption: 'E-Commerce frontend-only practice project with cart functionality.',
         name: 'DripShop',
         link: 'https://dripshop-project.vercel.app/',
-        github: 'https://github.com/Geeteshgit/Dripshop-project.git', 
+        github: 'https://github.com/Geeteshgit/Dripshop-project', 
         description: 'DripShop is a beginner-friendly e-commerce frontend-only practice project built using HTML, CSS, and JavaScript. It allows users to browse products, add them to a cart, and perform basic CRUD operations such as updating quantities or removing items in addition to being fully responsive.',
         features: [
             'Pure frontend project built with HTML, CSS, and vanilla JavaScript.',
@@ -151,7 +169,7 @@ export const featuredProjects: Projects[] = [
         caption: 'An AI-powered tool to generate, preview, explore, and save cohesive color palettes with real-time visuals.',
         name: 'GenPalette',
         link: 'https://genpalette-virid.vercel.app/',
-        github: 'https://github.com/Geeteshgit/genpalette.git',
+        github: 'https://github.com/Geeteshgit/genpalette',
         description: 'GenPalette is an AI-powered color palette generation and visualization tool built for developers and designers. It enables users to effortlessly create, preview, explore and save cohesive color themes using Gemini AI.',
         features: [
             'AI-powered tool to generate cohesive and random color palettes using Gemini API.',
@@ -163,11 +181,29 @@ export const featuredProjects: Projects[] = [
         technologies: ['Next.js', 'React.js', 'Tailwind CSS', 'MongoDB', 'Redux', 'Framer Motion']
     },
     {
+        image: 'readmeeasy.png',
+        caption: 'Instantly generate professional README.md files with AI.',
+        name: 'ReadmeEasy',
+        link: 'https://readmeeasy.vercel.app/',
+        github: 'https://github.com/Geeteshgit/readme-easy',
+        description: 'ReadmeEasy is an AI-powered tool that helps developers create clean, structured, and professional README.md files by simply entering their project details. It uses Gemini AI to intelligently generate missing content and follows best open-source documentation practices.',
+        features: [
+            'AI-generated README.md files with intelligent content filling.',
+            'Supports all major README sections like features, usage, tech stack, screenshots, license, etc.',
+            'GitHub-style markdown preview',
+            'Live markdown editor powered by Monaco Editor.',
+            'Form-based project input with real-time preview.',
+            'Responsive and accessible design.',
+            'Download generated README as a .md file.',
+        ],
+        technologies: ['Next.js', 'React.js', 'TypeScript', 'Tailwind CSS', 'MongoDB']
+    },
+    {
         image: 'campushive.png',
         caption: 'A student-driven platform solving daily campus challenges through seamless communication and collaboration.',
         name: 'CampusHive',
         link: 'https://campushive-snowy.vercel.app/',
-        github: 'https://github.com/Geeteshgit/CampusHive.git',
+        github: 'https://github.com/Geeteshgit/CampusHive',
         description: 'CampusHive is a platform aimed at solving common campus challenges, enhancing communication, and connecting students for various needs like collaboration, carpooling, and social interactions.',
         features: [
             'Real-time public chat and private DMs using Socket.IO.'
@@ -184,21 +220,4 @@ export const featuredProjects: Projects[] = [
         ],
         technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'CSS3', 'Socket.IO']
     },
-    {
-        image: 'codev.png',
-        caption: 'A powerful platform for developers to showcase their coding profiles, projects, and skills.',
-        name: 'Codev',
-        link: 'https://codev-ten.vercel.app/',
-        github: 'https://github.com/Geeteshgit/Codev.git',
-        description: 'Codev is a developer portfolio and discovery platform where users showcase their skills, projects, and coding profiles (like GitHub, LeetCode, etc.). It features personalized profiles and project highlights to help developers stand out and get discovered.',
-        features: [
-            'Personalized portfolios to showcase coding profiles like LeetCode, Codeforces, GitHub, and more.',
-            'Project section with descriptions, live links, and technologies used.',
-            'Explore and discover developers or get discovered by recruiters based on skills.',
-            'JWT-based authentication for secure login and session management.',
-            'Image uploads handled via Cloudinary.',
-            'State management using Redux for smooth user experience.'
-        ],
-        technologies: ['Next.js', 'React.js', 'Tailwind CSS', 'MongoDB', 'Redux', 'Framer Motion']
-    }
 ];
