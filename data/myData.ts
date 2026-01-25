@@ -24,7 +24,7 @@ export const myData: Data = {
     resume: 'https://drive.google.com/file/d/1y-7ZK_SeygvUpaZXBzxTNVAvPh8-cq1K/view?usp=sharing',
     github: 'Geeteshgit',
     leetcode: 'Geetesh_Dalal',
-    CGPA: 8.75
+    CGPA: 8.84
 }
 
 export const projects: Projects[] = [
